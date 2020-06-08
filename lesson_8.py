@@ -1,10 +1,11 @@
 def ooops():
-    IndexError_exception
-    
+    '''IndexError_exception'''
+
+
 a = ['o', 'o', 'o', 'p', 's']
 s = 0
 
-for i in a: # ітерація по списку a
+for i in a:  # ітерація по списку a
     s = s + 1
 
 print(a)
@@ -19,14 +20,12 @@ try:
 except IndexError:
     print('o-o-o-p-s')
     print('Try again.')
-    
-
-
 
 
 
 def division():
     '''atempts to divide any ways'''
+
 
 while True:
     print('\nGive me two numbers, and I\'ll divide them.')
